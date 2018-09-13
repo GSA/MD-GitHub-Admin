@@ -1,7 +1,5 @@
 # MD-GitHub-Admin
-Documentation on how the MD team can collaborate through GitHub
-
-Git and GitHub can seem bewildering at first. This documenation will simplify and clarify common workflows and provide our team with a standard way of doing things. 
+Git and GitHub can seem bewildering at first. This documenation will simplify and clarify common workflows and provide our team with a standard way of doing things together.
 
 ## Our Team
 Our [team](https://github.com/orgs/GSA/teams/ogp-evidence-and-analysis) can give members [administrative, write, or read permissions](https://help.github.com/articles/managing-access-to-your-organization-s-repositories/). Even if you have `write` access into a repository, we strongly encourage the submission of pull requests for improvements or fixes.
