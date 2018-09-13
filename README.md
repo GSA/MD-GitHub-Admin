@@ -11,7 +11,7 @@ The GitHub Government Community
 GitHub Government Best Practices
 Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users
 
-## READMEs
+## README Template
 Two common ways to document a project are README files and wikis:
  - README files are a quick and simple way for other users to learn more about your work.
  - Wikis on GitHub help you present in-depth information about your project in a useful way.
@@ -22,21 +22,24 @@ Within this repo, there's a [README-Template.MD](https://github.com/GSA/MD-GitHu
 
 You can read more about creating a README or Wiki in the official GitHub documentation [here](https://guides.github.com/features/wikis/).
 
-## Contributing
+## Contributing Template
 To help your project contributors do good work, you can add a file called `CONTRIBUTING` (or `CONTRIBUTING.md` if you’re using Markdown) with contribution guidelines to your project repository's root, docs, or .github folder. When someone opens a pull request or creates an issue, they will see a link to that file.
 
 Within this repo, there's a [CONTRIBUTING.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/CONTRIBUTING.MD) template that you can copy/paste into your new repo. **This document will be our teams canonical contributing guideline.**
 
 You can read more about contributing guidelines in the official GitHub documentation [here](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
 
-## Issues
+## Issue Templates
 Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
 
-Within this repo, there's an [ISSUES.MD] file with different issue templates. You can use these to [populate your repos with pre-built issue templates](Creating issue templates for your repository). 
+Within this repo, there's an [ISSUES.MD] file with different issue templates. You can use these to [populate your repos with pre-built issue templates](Creating issue templates for your repository). Or you can create issue templates from within your repository using the [issue template builder](https://help.github.com/articles/about-issue-and-pull-request-templates/). Either way, these templates will be available for contributors to use when they open new issues in the repository.
 
 You can read more about issues in the official GitHub documentation [here](https://guides.github.com/features/issues/).
 
-## Project Boards
+## Pull Request Templates
+If you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body. As a team, we haven't decided if we want to do this yet. If we do, there's more to read [here](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/).
+
+## Project Board Templates
 Project boards on GitHub help you organize and prioritize your work at a repository level. You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. With project boards, you have the flexibility to create customized workflows that suit your needs.
 
 Project boards are made up of issues, pull requests, and notes that are categorized as cards in columns of your choosing. You can drag and drop or use keyboard shortcuts to reorder cards within a column, move cards from column to column, and change the order of columns.
