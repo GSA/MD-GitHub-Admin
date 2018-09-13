@@ -43,7 +43,7 @@ Project boards on GitHub help you organize and prioritize your work at a reposit
 
 Project boards are made up of issues, pull requests, and notes that are categorized as cards in columns of your choosing. You can drag and drop or use keyboard shortcuts to reorder cards within a column, move cards from column to column, and change the order of columns.
 
-Within this repo, there's a pre-built [project board] that you can [copy to your repo](https://blog.github.com/2018-05-01-creating-new-boards-with-project-templates/).
+Within this repo, there's a pre-built [project board](https://github.com/GSA/MD-GitHub-Admin/projects) that you can [copy to your repo](https://blog.github.com/2018-05-01-creating-new-boards-with-project-templates/).
 
 You can read more about project boards in the official GitHub documentation [here](https://help.github.com/articles/about-project-boards/).
 
