@@ -27,7 +27,7 @@ You can read more about creating a README or Wiki in the official GitHub documen
 ## Contributing
 To help your project contributors do good work, you can add a file called `CONTRIBUTING` (or `CONTRIBUTING.md` if you’re using Markdown) with contribution guidelines to your project repository's root, docs, or .github folder. When someone opens a pull request or creates an issue, they will see a link to that file.
 
-Within this repo, there's a [CONTRIBUTING.MD] template that you can copy/paste into your new repo. **This document will be our teams canonical contributing guideline.**
+Within this repo, there's a [CONTRIBUTING.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/CONTRIBUTING.MD) template that you can copy/paste into your new repo. **This document will be our teams canonical contributing guideline.**
 
 You can read more about contributing guidelines in the official GitHub documentation [here](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
 
