@@ -50,6 +50,6 @@ You can read more about project boards in the official GitHub documentation [her
 ## License
 The license on every repo must be Creative Commons 0, or CC0. That’s shorthand for Public Domain. MD should be committed to working in the public domain by our own policies even though that is also required by [law](https://www.usa.gov/government-works). 
 
-Within this repo, there's a [LICENSE] file that you can copy into the root of your repos.
+Within this repo, there's a [LICENSE](https://github.com/GSA/MD-GitHub-Admin/blob/master/LICENSE) file that you can copy into the root of your repos.
 
 You can read all about licenses [here](https://help.github.com/articles/licensing-a-repository/).
