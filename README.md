@@ -20,7 +20,7 @@ Two common ways to document a project are README files and wikis:
 
 It’s a good idea to at least have a README on your project, because it’s the first thing many people will read when they first find your work. You're actually reading this repo's README right now! So, when you create a new repository, select “Initialize this repository with a README” unless you plan to import an existing repository.
 
-Within this repo, there's a [README_TEMPLATE.MD] that you can use to help get you started.
+Within this repo, there's a [README-Template.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/README-Template.md) that you can use to help get you started.
 
 You can read more about creating a README or Wiki in the official GitHub documentation [here](https://guides.github.com/features/wikis/).
 
