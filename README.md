@@ -58,7 +58,7 @@ You can read more about contributing guidelines in the official GitHub documenta
 ## Issue Templates
 Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
 
-Within this repo, there's an [ISSUE-Template.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/ISSUE-Template.md) file with different issue templates. You can use these to [populate your repos with pre-built issue templates](Creating issue templates for your repository). Or you can create issue templates from within your repository using the [issue template builder](https://help.github.com/articles/about-issue-and-pull-request-templates/). Either way, these templates will be available for contributors to use when they open new issues in the repository.
+Within this repo, there's an [ISSUE-Template.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/ISSUE-Template.md) file with a basic bug/enhancement template. You can use this to [populate your repo with a pre-built issue templates](https://help.github.com/articles/creating-issue-templates-for-your-repository/). Or you can create issue templates from within your repository using the [issue template builder](https://help.github.com/articles/about-issue-and-pull-request-templates/). Either way, these templates will be available for contributors to use when they open new issues in the repository.
 
 You can read more about issues in the official GitHub documentation [here](https://guides.github.com/features/issues/).
 
