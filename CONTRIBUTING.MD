@@ -10,12 +10,14 @@ We'd love your input! We want to make contributing to this project as easy and t
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
 ## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
-Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
+Pull requests are the best way to propose changes to the codebase. Here's the basic workflow:
 
 1. Fork the repo and create your branch from `master`.
-2. Commit changes with a pithy, descriptive message. If it references an Issue, include the issue number. We recommend using the [pandas commit guidlines](http://pandas.pydata.org/pandas-docs/stable/contributing.html#committing-your-code).
+2. Commit changes with a pithy, descriptive message. If it references an Issue, include the issue number.
 3. Issue that pull request!
 4. Await review and feedback.
+
+Throughout this process, you should follow the repo's [style guidelines](link to style guidelines).
 
 ## Any contributions you make will be under the Creative Commons Zero v1.0 Universal
 In short, when you submit code changes, your submissions are understood to be under the same Creative Commons License that covers the project.
