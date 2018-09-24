@@ -37,7 +37,7 @@ The GitHub Government Community
 GitHub Government Best Practices
 Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users
 
-## README Templates
+## README Template
 Two common ways to document a project are README files and wikis:
  - README files are a quick and simple way for other users to learn more about your work.
  - Wikis on GitHub help you present in-depth information about your project in a useful way.
@@ -48,21 +48,27 @@ Within this repo, there's a [README-Template.MD](https://github.com/GSA/MD-GitHu
 
 You can read more about creating a README or Wiki in the official GitHub documentation [here](https://guides.github.com/features/wikis/).
 
-## Contributing Templates
-To help your project contributors do good work, you can add a file called `CONTRIBUTING` (or `CONTRIBUTING.md` if you’re using Markdown) with contribution guidelines to your project repository's root, docs, or .github folder. When someone opens a pull request or creates an issue, they will see a link to that file.
+## Contributing Template
+This doc codifies contributing guidelines. We use [Github Flow](https://guides.github.com/introduction/flow/index.html), so all code changes happen through pull requests.
 
-Within this repo, there's a [CONTRIBUTING.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/CONTRIBUTING.MD) template that you can copy/paste into your new repo. **This document will be our teams canonical contributing guideline.**
+However, given the the fact that our team is comprised of Feds and contractors, we specify two different contribution models:  **the fork and pull model** and **the shared repository model**.
 
-You can read more about contributing guidelines in the official GitHub documentation [here](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
+### The fork and pull model
+Non-GSA employees use the **the fork and pull model**. In the fork and pull model, anyone can fork an existing repository and push changes to their personal fork without needing access to the source repository. The changes can be pulled into the source repository by the project maintainer. When you open a pull request proposing changes from your fork's branch to a branch in the source (upstream) repository, you can allow anyone with push access to the upstream repository to make changes to your pull request. This model is popular with open source projects as it reduces the amount of friction for new contributors and allows people to work independently without upfront coordination. 
 
-## Issue Templates
+### The shared repository model
+GSA employees can use the **the shared repository model**. In the shared repository model, collaborators are granted push access to a single shared repository and topic branches are created when changes need to be made. Pull requests are useful in this model as they initiate code review and general discussion about a set of changes before the changes are merged into the main development branch.
+
+[CONTRIBUTING.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/CONTRIBUTING.MD) describes more about both of these models. You can also read more about contributing guidelines in the official GitHub documentation [here](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
+
+## Issue Template
 Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
 
 Within this repo, there's an [ISSUE-Template.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/ISSUE-Template.md) file with a basic bug/enhancement template. You can use this to [populate your repo with a pre-built issue templates](https://help.github.com/articles/creating-issue-templates-for-your-repository/). Or you can create issue templates from within your repository using the [issue template builder](https://help.github.com/articles/about-issue-and-pull-request-templates/). Either way, these templates will be available for contributors to use when they open new issues in the repository.
 
 You can read more about issues in the official GitHub documentation [here](https://guides.github.com/features/issues/).
 
-## Pull Request Templates
+## Pull Request Template
 If you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body. As a team, we haven't decided if we want to do this yet. If we do, there's more to read [here](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/).
 
 ## Project Board Templates
@@ -74,7 +80,7 @@ Within this repo, there's a pre-built [project board](https://github.com/GSA/MD-
 
 You can read more about project boards in the official GitHub documentation [here](https://help.github.com/articles/about-project-boards/).
 
-## Licenses
+## License
 The license on every repo must be Creative Commons 0, or CC0. That’s shorthand for Public Domain. MD should be committed to working in the public domain by our own policies even though that is also required by [law](https://www.usa.gov/government-works). 
 
 Within this repo, there's a [LICENSE](https://github.com/GSA/MD-GitHub-Admin/blob/master/LICENSE) file that you can copy into the root of your repos.
