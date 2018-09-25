@@ -48,18 +48,14 @@ After your feature branch has been update locally, you can now update your pull 
 `git push origin shiny-new-feature`
 
 #### Deleting your Branch
-Once your feature branch is accepted, you’ll probably want to get rid of the branch. First, merge upstream master into your branch so git knows it is safe to delete your branch:
+Once your feature branch is accepted, you’ll probably want to get rid of the branch. You can do that to the remote master right within the pull request page. To delete the branch locally, you need to pull the remote master down into your local master. Then git will know it's safe to delete your branch.
 ```
-git fetch upstream
 git checkout master
-git merge upstream/master
+git pull
 ```
-Then you can do:
+Now that your local master is even with the remote, you can do:
 `git branch -d shiny-new-feature`
 Make sure you use a lower-case -d, or else git won’t warn you if your feature branch has not actually been merged.
-
-The branch will still exist on GitHub, so to delete it there do:
-`git push origin --delete shiny-new-feature`
 
 ## The Fork and Pull Model
 This model is the same as the Shared Repository Model except that you need your own fork to work on the code. To to this, you go to the project page and hit the Fork button. You will then want to clone your fork to your machine:
