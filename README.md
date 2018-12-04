@@ -1,4 +1,9 @@
 # MD-GitHub-Admin
+This repository is home to all of the team's project issues. Once you create an issue on this repository, it becomes available to be added to one of our [team's projects](https://github.com/orgs/GSA/teams/ogp-evidence-and-analysis/projects).
+
+This repository is also home to all of our GitHub standards. Read on for information on getting added to the team, creating repositories, contributing to repositories, creating issues and projects, and more.
+
+
 Git and GitHub can seem bewildering at first. This documenation will simplify and clarify common workflows and provide our team with a standard way of doing things together.
 
 ## Our Users
@@ -13,10 +18,13 @@ Each user must:
  - Make your membership public by going to the [team](https://github.com/orgs/GSA/teams/ogp-evidence-and-analysis) page, finding yourself, and clicking **Make Public**.
  
 ## Our Repositories
+A repository corresponds to a single project. If the project is an annually recurring one, then you can simply create folders within that repository for the different iterations.
+
 Each repository should:
- - Have a simple and useful name 
-    - If the repo is for a team project (e.g. the Tenant Satisfaction Survey), ensure that the repo name reflects that and that there isn't aleady another repo for that project. Avoid acronyms and clever names/puns as those can make it hard to search for projects.
-    - If the repo is for a cross-project utility function (e.g. a Qualtrics API script), use a descriptive name that describes what the project does. Avoid acronyms and clever names/puns as those can make it hard to search for projects.
+ - Be public by default, although it is possible to create private repositories (see notes below).
+ - Have a simple and useful name that corresponds to both its Slack channel and its Google Drive folder in the team drive.
+    - Avoid acronyms and clever names/puns as those can make it hard to search for projects.
+    - If the repo is for a cross-project utility (e.g. a Qualtrics API script), use a descriptive name that describes what the project does.
  - Have a user-friendly description
     - The description of a repo tells the public what is contained in the repo itself. If you have multiple repositories for the same project, it's better to describe what is contained in the repo itself instead of describing the project.
     - Repo descriptions should be clear, concise, and descriptive. Descriptions are listed under each repository title on an organization’s GitHub page. Anyone who scans the GitHub page should be able to determine what a repo does, just by looking at the description
@@ -28,41 +36,31 @@ By default, projects in GitHub.com/GSA should be public. They should only be mad
 A repository can be made private if it contains information that legally cannot be made public.
 
 ## Our Team
-Our [team](https://github.com/orgs/GSA/teams/ogp-evidence-and-analysis) can give members [administrative, write, or read permissions](https://help.github.com/articles/managing-access-to-your-organization-s-repositories/). Even if you have `write` access into a repository, we strongly encourage the submission of pull requests for improvements or fixes.
+Our [team](https://github.com/orgs/GSA/teams/ogp-evidence-and-analysis) can give members [administrative, write, or read permissions](https://help.github.com/articles/managing-access-to-your-organization-s-repositories/). 
 
-Contractors or external government collaborators should only be added to teams with scoped write permissions to the respositories they're working on. They should never have administrative level rights. In order to separate out these permissions, create a team in the format of `projectname-admins` for government staff if necessary.
-
-Additional resources
-The GitHub Government Community
-GitHub Government Best Practices
-Amendment to GitHub Terms of Service Applicable to U.S. Federal Government Users
+Even if you have `write` access into a repository, we strongly encourage the submission of pull requests for improvements or fixes as this providers other collaborators and opportunity to review/comment on your edits.
 
 ## README Template
 Two common ways to document a project are README files and wikis:
  - README files are a quick and simple way for other users to learn more about your work.
  - Wikis on GitHub help you present in-depth information about your project in a useful way.
 
-It’s a good idea to at least have a README on your project, because it’s the first thing many people will read when they first find your work. You're actually reading this repo's README right now! So, when you create a new repository, select “Initialize this repository with a README” unless you plan to import an existing repository.
+It’s a good idea to at least have a README on your project, because it’s the first thing many people will read when they first enter the repository. You're actually reading this repo's README right now! So, when you create a new repository, select “Initialize this repository with a README” unless you plan to import an existing repository.
 
 Within this repo, there's a [README-Template.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/README-Template.md) that you can use to help get you started.
 
-You can read more about creating a README or Wiki in the official GitHub documentation [here](https://guides.github.com/features/wikis/).
+You can read more about creating a README (or Wiki) in the official GitHub documentation [here](https://guides.github.com/features/wikis/).
 
 ## Contributing Template
-This doc codifies contributing guidelines. We use [Github Flow](https://guides.github.com/introduction/flow/index.html), so all code changes happen through pull requests.
-
-However, given the the fact that our team is comprised of Feds and contractors, we specify two different contribution models:  **the fork and pull model** and **the shared repository model**.
-
-### The fork and pull model
-Non-GSA employees use the **the fork and pull model**. In the fork and pull model, anyone can fork an existing repository and push changes to their personal fork without needing access to the source repository. The changes can be pulled into the source repository by the project maintainer. When you open a pull request proposing changes from your fork's branch to a branch in the source (upstream) repository, you can allow anyone with push access to the upstream repository to make changes to your pull request. This model is popular with open source projects as it reduces the amount of friction for new contributors and allows people to work independently without upfront coordination. 
+If it's a public repository, it's a good idea to codify contributing guidelines. A common practice is to use [Github Flow](https://guides.github.com/introduction/flow/index.html), so all code changes happen through pull requests. With pull requests, it's easy to follow **the shared repository model**.
 
 ### The shared repository model
 GSA employees can use the **the shared repository model**. In the shared repository model, collaborators are granted push access to a single shared repository and topic branches are created when changes need to be made. Pull requests are useful in this model as they initiate code review and general discussion about a set of changes before the changes are merged into the main development branch.
 
-[CONTRIBUTING.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/CONTRIBUTING.MD) describes more about both of these models. You can also read more about contributing guidelines in the official GitHub documentation [here](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
+[CONTRIBUTING.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/CONTRIBUTING.MD) describes this model in greater detail. You can also read more about contributing guidelines in the official GitHub documentation [here](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
 
 ## Issue Template
-Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
+Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They’re kind of like email — except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.
 
 Within this repo, there's an [ISSUE-Template.MD](https://github.com/GSA/MD-GitHub-Admin/blob/master/ISSUE-Template.md) file with a basic bug/enhancement template. You can use this to [populate your repo with a pre-built issue templates](https://help.github.com/articles/creating-issue-templates-for-your-repository/). Or you can create issue templates from within your repository using the [issue template builder](https://help.github.com/articles/about-issue-and-pull-request-templates/). Either way, these templates will be available for contributors to use when they open new issues in the repository.
 
