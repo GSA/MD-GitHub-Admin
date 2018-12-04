@@ -1,5 +1,5 @@
 # MD-GitHub-Admin
-This repository is home to all of the team's project issues. Once you create an issue on this repository, it becomes available to be added to one of our [team's projects](https://github.com/orgs/GSA/teams/ogp-evidence-and-analysis/projects).
+This repository is home to all of the team's project issues. Once you create an issue on this repository, it becomes available to be added to one of our [team's projects](https://github.com/orgs/GSA/teams/ogp-evidence-and-analysis/projects). If you're creating an issue to link it to a team project, start the issue title with the project name.
 
 This repository is also home to all of our GitHub standards. Read on for information on getting added to the team, creating repositories, contributing to repositories, creating issues and projects, and more.
 
