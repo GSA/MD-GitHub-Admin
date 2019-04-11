@@ -85,4 +85,4 @@ Within this repo, there's a [LICENSE](https://github.com/GSA/MD-GitHub-Admin/blo
 
 You can read all about licenses [here](https://help.github.com/articles/licensing-a-repository/).
 
-## Acknowledgements
+## Acknowledgements Scott
