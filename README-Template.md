@@ -70,6 +70,7 @@ List the main authors
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
+Hanna is ALSO awesome
 ## License
 
 This project is licensed under the Creative Commons Zero v1.0 Universal License - see the [LICENSE.md](https://github.com/your/project/LICENSE.md) file for details
