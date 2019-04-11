@@ -28,7 +28,7 @@ Each repository should:
  - Have a user-friendly description
     - The description of a repo tells the public what is contained in the repo itself. If you have multiple repositories for the same project, it's better to describe what is contained in the repo itself instead of describing the project.
     - Repo descriptions should be clear, concise, and descriptive. Descriptions are listed under each repository title on an organization’s GitHub page. Anyone who scans the GitHub page should be able to determine what a repo does, just by looking at the description
- - Have a useful README.md (see below!)
+ - Have a useful README.md (see below)
 
 Standards for making a private repo:
 By default, projects in GitHub.com/GSA should be public. They should only be made private under certain circumstances.
